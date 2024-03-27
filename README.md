@@ -11,11 +11,11 @@
 
 ## Figma
 
-[ACM UCR Website Template Figma Design File](https://www.figma.com/)
+[TAG Figma Design File](https://www.figma.com/file/toAgQZnYgM9hFa1uNQ4OPs/ACM-x-TAG?type=design&node-id=0%3A1&mode=design&t=jkwCOn35tw2wltHA-1)
 
 ## Node.js
 
-ACM UCR Website Template runs on Node.js Version 20.10.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
+The TAG Website Template runs on Node.js Version 20.10.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
 
 ## Next.js
 
