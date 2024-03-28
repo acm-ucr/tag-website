@@ -7,7 +7,16 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        tag: {
+          example: "#8093a2",
+        },
+      },
+      // fontFamily: {
+      //   font-here: "___",
+      // }
+    },
   },
   plugins: [],
 };
