@@ -5,12 +5,17 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/data/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/utils/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
         tag: {
-          example: "#8093a2",
+          "green-100": "#C9D7B8",
+          "green-200": "#5A6D49",
+          "green-300": "#151A11",
+          "tan-100": "#F7F8F0",
+          "gray-100": "#737373",
         },
       },
       // fontFamily: {
