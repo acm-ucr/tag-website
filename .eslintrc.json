@@ -11,8 +11,7 @@
   },
   "plugins": ["react"],
   "rules": {
-    "require-jsdoc": "off",
-    "camelcase": ["error", { "properties": "never" }]
+    "require-jsdoc": "off"
   },
   "settings": {
     "react": {
