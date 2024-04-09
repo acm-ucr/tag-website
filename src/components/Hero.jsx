@@ -3,12 +3,12 @@ import Title from "@/components/Title.jsx";
 
 const Hero = () => {
   return (
-    <div className="flex flex-row justify-between w-screen">
-      <div className="flex flex-row">
+    <div className="flex flex-row justify-between w-screen h-[600px]">
+      <div className="flex flex-row w-3/5">
         <Circles />
       </div>
 
-      <div className="mr-80 flex items-center">
+      <div className="flex items-center w-2/5">
         <Title />
       </div>
     </div>
