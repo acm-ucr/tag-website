@@ -13,13 +13,13 @@ const Navbar = () => {
       <div>
         <ul className="flex px-4 py-7 space-x-5 mr-4 font-serif text-2xl">
           <li className="text-white hover:text-black">
-            <Link href={"/"}>Teams</Link>
+            <Link href={"/board"}>Teams</Link>
           </li>
           <li className="text-white hover:text-black">
-            <Link href={"/"}>Events</Link>
+            <Link href={"/events"}>Events</Link>
           </li>
           <li className="text-white hover:text-black">
-            <Link href={"/"}>Photos</Link>
+            <Link href={"/photos"}>Photos</Link>
           </li>
         </ul>
       </div>
