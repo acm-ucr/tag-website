@@ -11,6 +11,9 @@ module.exports = {
     extend: {
       colors: {
         tag: {
+          "lime-800": "#3f6212",
+          "lime-900": "#365314",
+          "lime-950": "#365314",
           "green-100": "#C9D7B8",
           "green-200": "#5A6D49",
           "green-300": "#151A11",
