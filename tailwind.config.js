@@ -21,9 +21,6 @@ module.exports = {
           "gray-100": "#737373",
         },
       },
-      // fontFamily: {
-      //   font-here: "___",
-      // }
     },
   },
   plugins: [],
