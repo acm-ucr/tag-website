@@ -1,7 +1,9 @@
+import Gallery from "@/components/Gallery";
+
 const Page = () => {
   return (
     <div>
-      <p>Photos page</p>
+      <Gallery />
     </div>
   );
 };
