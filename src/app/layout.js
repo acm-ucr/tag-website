@@ -20,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${IMfell.className} bg-tag-tan-100`}>
+      <body className={`${IMfell.className} h-screen bg-tag-tan-100`}>
         <Navbar />
         {children}
         <Footer />
