@@ -1,5 +1,4 @@
 import Circles from "@/components/Circles.jsx";
-import Title from "@/components/Title.jsx";
 
 const Hero = () => {
   return (
@@ -8,9 +7,7 @@ const Hero = () => {
         <Circles />
       </div>
 
-      <div className="flex items-center w-2/5">
-        <Title />
-      </div>
+      <div className="flex items-center w-2/5"></div>
     </div>
   );
 };
