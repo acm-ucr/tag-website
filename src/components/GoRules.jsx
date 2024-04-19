@@ -4,7 +4,7 @@ import GoBoard from "@/public/GoBoard.webp";
 const GoRules = () => {
   return (
     <div className="w-full flex justify-center items-center">
-      <Image src={GoBoard} className="w-[15%] " />
+      <Image src={GoBoard} className="w-[15%]" alt="Go Board" />
       <div className="w-[30%] mx-5">
         <div className="">
           <p className="text-2xl text-tag-green-200 mb-3"> RULES OF GO </p>
