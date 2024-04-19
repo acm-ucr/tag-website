@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Logo from "@/public/Logo.webp";
 import { BsDiscord } from "react-icons/bs"; //  for discord
 import { BsInstagram } from "react-icons/bs"; //  for insta
@@ -22,9 +23,15 @@ const Footer = () => {
         <div className="flex">
           <div className="bg-white w-2.5 h-20 mx-3"></div>
           <div className="flex flex-col justify-between text-2xl text-gray-100">
-            <BsDiscord />
-            <BsEnvelope />
-            <BsInstagram />
+            <Link href="/">
+              <BsDiscord />
+            </Link>
+            <Link href="/">
+              <BsEnvelope />
+            </Link>
+            <Link href="/">
+              <BsInstagram />
+            </Link>
           </div>
         </div>
       </div>
