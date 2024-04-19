@@ -4,7 +4,7 @@ const Rules = () => {
   return (
     <div className="flex justify-center items-center">
       <div className="w-[35%] text-right">
-        <p className="text-tag-green-200 text-2xl mx-5">RULES OF MAHJONG</p>
+        <p className="text-tag-green-200 text-2xl mx-5">Rules of Mahjong</p>
         <div className="flex pt-3">
           <p className="text-tag-gray-100 text-xs leading-loose">
             LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
