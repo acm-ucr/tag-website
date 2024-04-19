@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="flex w-full items-end justify-between bg-gradient-to-r from-tag-green-300 to-tag-green-200">
       <div className="flex m-3 items-center">
-        <Image className="h-16 w-16" src={Logo} />
+        <Image className="h-16 w-16" src={Logo} alt="Tea & Go Logo" />
         <p className="text-3xl text-gray-100">Tea & Go</p>
       </div>
 
