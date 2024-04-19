@@ -1,9 +1,7 @@
 import MahjongRules from "../../src/components/MahjongRules";
 
 const Rules = () => {
-  return (
-    <MahjongRules/>
-  );
+  return <MahjongRules />;
 };
 
 export default Rules;
