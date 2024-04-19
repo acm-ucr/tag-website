@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/public/Logo.webp";
-import { BsDiscord } from "react-icons/bs"; //  for discord
-import { BsInstagram } from "react-icons/bs"; //  for insta
-import { BsEnvelope } from "react-icons/bs"; // for mailing
+import { BsDiscord } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+import { BsEnvelope } from "react-icons/bs";
 
 const Footer = () => {
   return (
