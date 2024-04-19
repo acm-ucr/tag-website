@@ -1,10 +1,9 @@
-import Title from "@/components/Title";
+import Gallery from "@/components/Gallery";
 
 const Page = () => {
   return (
     <div>
-      <Title text={""} />
-      <p>Photos page</p>
+      <Gallery />
     </div>
   );
 };
