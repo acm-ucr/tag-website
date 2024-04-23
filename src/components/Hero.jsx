@@ -1,5 +1,5 @@
 import Circles from "@/components/Circles.jsx";
-import Title from "@/components/Title.jsx";
+import Title from "./Title";
 
 const Hero = () => {
   return (
