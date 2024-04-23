@@ -1,9 +1,9 @@
-import Title from "@/components/Title";
+import Header from "@/components/Header";
 
 const Page = () => {
   return (
     <div>
-      <Title text={""} />
+      <Header text={"Meet the Board"} />
       <p>Board page</p>
     </div>
   );

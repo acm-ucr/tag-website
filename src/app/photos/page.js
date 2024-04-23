@@ -1,10 +1,10 @@
 import Gallery from "@/components/Gallery";
-import Title from "@/components/Title";
+import Header from "@/components/Header";
 
 const Page = () => {
   return (
     <div>
-      <Title text={""} />
+      <Header text={"Gallery"} />
       <Gallery />
     </div>
   );

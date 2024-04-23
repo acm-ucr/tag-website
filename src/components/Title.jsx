@@ -1,6 +1,7 @@
 import Logo from "../../public/Logo.webp";
 import Button from "@/components/Button";
 import Image from "next/image";
+
 const Title = () => {
   return (
     <div className="flex flex-col justify-center items-center">
