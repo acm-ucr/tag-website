@@ -13,7 +13,7 @@ const MahjongRules = () => {
             AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT
             ALIQUIP EX EA COMMODO CONSEQUAT.
           </p>
-          <div className="w-2 h-auto border-l border-tag-green-400 mx-5"></div>
+          <div className="w-2 h-auto border-l bg-tag-gray-100 mx-5"></div>
         </div>
       </div>
       <Image src={board} alt="Mahjong_Board" className="w-[30%] mx-5" />
