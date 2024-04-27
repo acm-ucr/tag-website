@@ -1,7 +1,11 @@
+import Gallery from "@/components/Gallery";
+import Header from "@/components/Header";
+
 const Page = () => {
   return (
     <div>
-      <p>Photos page</p>
+      <Header text={"Gallery"} />
+      <Gallery />
     </div>
   );
 };
