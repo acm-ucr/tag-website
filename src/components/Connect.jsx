@@ -8,7 +8,7 @@ const Connect = () => {
   return (
     <div className="w-1/2 my-10 mx-auto flex flex-col items-center text-2xl text-tag-green-200">
       <p>Get Connected </p>
-      <div className="flex justify-center text-5xl text-tag-green-200 ">
+      <div className="w-4/5 flex justify-center text-5xl text-tag-green-200 justify-between">
         <div className="border-[1px] border-tag-green-200 rounded-full m-3 p-3">
           <FaInstagram />
         </div>
