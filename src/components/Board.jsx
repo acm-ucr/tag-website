@@ -4,10 +4,12 @@ import Card from "@/components/Card";
 
 const Board = () => {
   return (
-    <div className="flex flex-wrap">
-      {BOARD.map((member, index) => (
-        <Card key={index} name={member.name} position={member.position} />
-      ))}
+    <div className="flex justify-center w-[90%] mx-auto">
+      <div className="gap-10 items-center justify-center lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 grid">
+        {BOARD.map((member, index) => (
+          <Card key={index} name={member.name} position={member.position} />
+        ))}
+      </div>
     </div>
   );
 };
