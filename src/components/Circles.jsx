@@ -21,7 +21,7 @@ const Circles = () => {
         <Image src={Go} alt="Go" className="object-cover w-full h-full" />
       </div>
 
-      <div className="absolute left-[150%] top-[5%] w-80 h-80 overflow-hidden rounded-full border-2 border-tag-green-300"></div>
+      <div className="absolute left-[150%] top-[5%] w-80 h-80 overflow-hidden rounded-full border-2 border-tag-green-100"></div>
     </div>
   );
 };

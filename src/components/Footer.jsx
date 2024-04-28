@@ -23,13 +23,25 @@ const Footer = () => {
         <div className="flex">
           <div className="bg-white w-2.5 h-20 mx-3"></div>
           <div className="flex flex-col justify-between text-2xl text-gray-100">
-            <Link href="/">
+            <Link
+              target="_blank"
+              href="https://discord.com/invite/peSZUJWhvS"
+              className="hover:scale-[1.3] ease-in duration-150"
+            >
               <BsDiscord />
             </Link>
-            <Link href="/">
+            <Link
+              target="_blank"
+              href="/"
+              className="hover:scale-[1.3] ease-in duration-150"
+            >
               <BsEnvelope />
             </Link>
-            <Link href="/">
+            <Link
+              target="_blank"
+              href="https://www.instagram.com/ucr_tag/"
+              className="hover:scale-[1.3] ease-in duration-150"
+            >
               <BsInstagram />
             </Link>
           </div>
