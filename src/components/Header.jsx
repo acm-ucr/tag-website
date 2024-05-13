@@ -11,7 +11,7 @@ const Header = ({ text }) => {
             alt="Caligraphy"
             className="object-cover h-[230px] w-full rounded-b-[40%] opacity-60"
           />
-          <div className="bottom-1/4 absolute font-serif text-4xl sm:text-5xl md:text-7xl lg:text-13xl text-white w-full text-center">
+          <div className="bottom-1/4 absolute font-serif text-4xl sm:text-5xl md:text-7xl text-white w-full text-center">
             {text}
           </div>
         </div>
