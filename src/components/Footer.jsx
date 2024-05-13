@@ -10,7 +10,9 @@ const Footer = () => {
     <div className="flex w-full h-30 items-end justify-between bg-gradient-to-r from-tag-green-300 to-tag-green-200 md: h-35">
       <div className="flex ml-3 mb-15 md: ml-3 mb-10 items-center">
         <Image className="h-16 w-16" src={Logo} alt="Tea & Go Logo" />
-        <p className="text-xl text-gray-100 sm:text-2xl text-gray-100 md:text-3xl text-gray-100">Tea & Go</p>
+        <p className="text-xl text-gray-100 sm:text-2xl text-gray-100 md:text-3xl text-gray-100">
+          Tea & Go
+        </p>
       </div>
 
       <div className="flex ml-5 mr-5 m-10">
