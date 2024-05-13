@@ -7,16 +7,18 @@ import { BsEnvelope } from "react-icons/bs"; // for mailing
 
 const Footer = () => {
   return (
-    <div className="flex w-full items-end justify-between bg-gradient-to-r from-tag-green-300 to-tag-green-200">
-      <div className="flex m-3 items-center">
+    <div className="flex w-full h-30 items-end justify-between bg-gradient-to-r from-tag-green-300 to-tag-green-200 md: h-35">
+      <div className="flex ml-3 mb-15 md: ml-3 mb-10 items-center">
         <Image className="h-16 w-16" src={Logo} alt="Tea & Go Logo" />
-        <p className="text-3xl text-gray-100">Tea & Go</p>
+        <p className="text-xl text-gray-100 sm:text-2xl text-gray-100 md:text-3xl text-gray-100">
+          Tea & Go
+        </p>
       </div>
 
-      <div className="flex m-10">
-        <div className="text-lg text-gray-100">
-          <p>Contact Us</p>
-          <p>900 University Ave</p>
+      <div className="flex ml-5 mr-5 m-10">
+        <div className="text-gray-100 text-right">
+          <p class="text-xl md:text-3xl font-semibold">Contact Us</p>
+          <p class="text-md md:text-xl">900 University Ave</p>
           <p>Riverside CA, 92521</p>
         </div>
 
