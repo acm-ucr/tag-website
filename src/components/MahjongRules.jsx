@@ -3,12 +3,12 @@ import board from "../../public/MahjongPieces.webp";
 
 const MahjongRules = () => {
   return (
-    <div className="flex justify-center items-center flex-col">
+    <div className="flex justify-center items-center flex-col lg:flex-row">
       <div className="mb-10 w-[50%] md:w-[20%]text-right text-6xl">
         <p className="text-tag-green-200 text-2xl lg:text-4xl">
           Rules of Mahjong
         </p>
-        <div className="flex w-[120%] md:w-[120%] ">
+        <div className="flex w-[120%] md:w-[120%] lg:w-[100%]">
           <p className="text-tag-gray-100 text-xs leading-loose lg:text-xl">
             LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO
             EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT ENIM
@@ -21,7 +21,7 @@ const MahjongRules = () => {
       <Image
         src={board}
         alt="Mahjong_Board"
-        className="w-[45%] md:[25%] lg:w-[15%]mx-5"
+        className="w-[45%] md:[25%] lg:w-[30%] ml-4"
       />
     </div>
   );

@@ -3,10 +3,10 @@ import GoBoard from "@/public/GoBoard.webp";
 
 const GoRules = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center mb-10">
+    <div className="w-full flex flex-col justify-center items-center mb-10 lg:flex-row">
       <Image
         src={GoBoard}
-        className="w-[45%] md:w-[25%] lg:w-[20%]"
+        className="w-[45%] md:w-[25%] lg:w-[20%] mr-10"
         alt="Go Board"
       />
       <div className="w-[50%] my-10 text-lg md:w-[50%] items-center md:flex-col lg:w-[50%] flex-col">
