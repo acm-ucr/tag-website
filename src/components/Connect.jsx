@@ -6,9 +6,9 @@ import Link from "next/link";
 
 const Connect = () => {
   return (
-    <div className="w-1/2 mx-auto my-10 text-tag-green-200 flex flex-col">
+    <div className="w-4/5 mx-auto my-10 text-tag-green-200 flex flex-col md:w-1/2 lg:w-1/2">
       <p className="text-2xl mx-auto mb-5 lg:text-4xl">Get Connected</p>
-      <div className="flex justify-around sm:text-3xl md:text-5xl">
+      <div className="flex justify-around sm:text-5xl md:text-5xl">
         <Link
           href="https://www.instagram.com/ucr_tag/"
           target="_blank"
