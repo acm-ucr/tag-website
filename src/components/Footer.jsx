@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
 
         <div className="flex">
-          <div className="bg-white w-2.5 h-20 mx-3"></div>
+          <div className="bg-white w-2.5 md:w-2.5 h-20 md:h-20 mx-3"></div>
           <div className="flex flex-col justify-between text-2xl text-gray-100">
             <Link
               target="_blank"
