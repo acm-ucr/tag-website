@@ -23,8 +23,8 @@ const Footer = () => {
         </div>
 
         <div className="flex">
-          <div className="bg-white w-2.5 md:w-2.5 h-20 md:h-20 mx-3"></div>
-          <div className="flex flex-col justify-between text-2xl text-gray-100">
+          <div className="bg-white w-2.5 h-20 mx-3 sm:h-full"></div>
+          <div className="flex flex-col justify-around text-lg md:text-2xl text-gray-100">
             <Link
               target="_blank"
               href="https://discord.com/invite/peSZUJWhvS"
