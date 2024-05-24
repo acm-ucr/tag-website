@@ -10,13 +10,13 @@ const GoRules = () => {
         alt="Go Board"
       />
       <div className="w-[50%] my-10 text-lg md:w-[50%] items-center md:flex-col lg:w-[50%] flex-col">
-        <p className="text-2xl text-tag-green-200 mb-3 lg:text-4xl">
+        <p className="text-xl text-tag-green-200 mb-3 lg:text-3xl">
           {" "}
-          RULES OF GO{" "}
+          Rules of Go{" "}
         </p>
         <div className="flex">
           <div className="w-2 bg-tag-gray-100 mr-5 " />
-          <p className="text-tag-gray-100 lg:text-2xl">
+          <p className="text-tag-gray-100 text-xl lg:text-xl">
             {" "}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
