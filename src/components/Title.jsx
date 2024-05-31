@@ -9,13 +9,13 @@ const Title = () => {
         <Image src={Logo} alt="Logo" className="w-1/3 xl:w-1/4 py-2 xl:ml-14" />
         <p className="text-4xl md:text-5xl xl:text-6xl">Tea & Go</p>
       </div>
-      <div className="flex flex-col items-center md:text-right xl:w-4/5">
-        <div className="text-xl md:text-2xl sm:text-2xl">
+      <div className="flex flex-col items-center md:text-right xl:w-4/5 sm:w-full">
+        <div className="text-xl md:text-2xl sm:text-xl">
           Come join us on wednesdays for a
         </div>
-        <div className="text-xl md:text-2xl sm:text-2xl">fun night of TEA!</div>
+        <div className="text-xl md:text-2xl sm:text-xl">fun night of TEA!</div>
       </div>
-      <div className="flex justify-center xl:mr-40 mt-16 md:mt-8 sm:mt-4 ">
+      <div className="flex justify-center xl:mr-40 mt-8 md:mt-8 sm:mt-6 sm:mb-10 ">
         <Button text="JOIN NOW" />
       </div>
     </div>
