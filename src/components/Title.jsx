@@ -4,19 +4,19 @@ import Image from "next/image";
 
 const Title = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <div>
-        <div className="flex flex-col mb-4 mr-48 items-center">
-          <Image src={Logo} alt="Logo" className="w-1/4 py-2 ml-14" />
-          <p className="text-6xl">Tea & Go</p>
+    <div>
+      <div className="flex flex-col mb-4 xl:mr-48 items-center">
+        <Image src={Logo} alt="Logo" className="w-1/3 xl:w-1/4 py-2 xl:ml-14" />
+        <p className="text-4xl md:text-5xl xl:text-6xl">Tea & Go</p>
+      </div>
+      <div className="flex flex-col items-center md:text-right xl:w-4/5">
+        <div className="text-xl md:text-3xl">
+          Come join us on wednesdays for a
         </div>
-        <div className="flex flex-col text-right w-3/5">
-          <div className="text-3xl">Come join us on wednesdays for a</div>
-          <div className="text-3xl">fun night of TEA!</div>
-        </div>
-        <div className="flex justify-center mr-40 mt-16 ">
-          <Button text="JOIN NOW" />
-        </div>
+        <div className="text-xl md:text-3xl">fun night of TEA!</div>
+      </div>
+      <div className="flex justify-center xl:mr-40 mt-16 ">
+        <Button text="JOIN NOW" />
       </div>
     </div>
   );
