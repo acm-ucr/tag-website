@@ -5,11 +5,11 @@ import Go from "@/public/Go.webp";
 const Circles = () => {
   return (
     <div className="relative h-300 w-40">
-      <div className="absolute top-[44%] lg:bottom-[16%] left-[76%] lg:left-[90%] w-36 h-36 lg:w-64 lg:h-64 overflow-hidden rounded-full z-10">
+      <div className="absolute top-[44%] md:top-[50%] lg:bottom-[16%] left-[76%] lg:left-[90%] md:left-[85%] w-36 h-36 lg:w-64 lg:h-64 overflow-hidden rounded-full z-10">
         <Image src={Tea} alt="Tea" className="object-cover w-full h-full" />
       </div>
 
-      <div className="absolute left-[14%] lg:-left-8 top-[23%] lg:top-[20%] w-36 h-36 md:w-48 md:h-48 lg:w-64 lg:h-64 overflow-hidden rounded-full">
+      <div className="absolute left-[14%] lg:-left-8 md:-left-[12%] top-[23%] lg:top-[20%] w-36 h-36 md:w-48 md:h-48 lg:w-64 lg:h-64 overflow-hidden rounded-full">
         <Image
           src={Mahjong}
           alt="Mahjong"
