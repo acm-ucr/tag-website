@@ -3,9 +3,9 @@ import TeaHeader from "../../public/TeaHeader.png";
 
 const Header = ({ text }) => {
   return (
-    <div className="relative bottom-56 w-full z-[-1]">
+    <div className="z-[-1] relative bottom-56 w-full">
       <Image src={TeaHeader} alt="Tea Header" className="w-full" />
-      <div className="absolute -mt-40 font-serif text-5xl text-white w-full text-center">
+      <div className="-mt-40 absolute font-serif text-5xl text-white w-full text-center">
         {text}
       </div>
     </div>
