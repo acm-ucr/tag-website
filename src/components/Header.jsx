@@ -1,5 +1,5 @@
 import Image from "next/image";
-import TeaHeader from "../../public/TeaHeader.png";
+import TeaHeader from "../../public/TeaHeader.webp";
 
 const Header = ({ text }) => {
   return (
