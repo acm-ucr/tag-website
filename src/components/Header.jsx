@@ -3,11 +3,16 @@ import TeaHeader from "../../public/TeaHeader.webp";
 
 const Header = ({ text }) => {
   return (
-    <div className="relative bottom-72 w-full z-[-1]">
-      <Image src={TeaHeader} alt="Header" className="w-full" />
-      <div className="tracking-wide absolute -mt-40 font-serif text-5xl text-white w-full text-center">
+    <div className="w-full relative z-[-1]">
+      <Image
+        src={TeaHeader}
+        alt="Header"
+        className="w-full h-1/2"
+        style={{ maxHeight: "30vh" }}
+      />
+      <p className="tracking-wide text-5xl text-white w-full text-center absolute bottom-5">
         {text}
-      </div>
+      </p>
     </div>
   );
 };
