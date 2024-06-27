@@ -1,5 +1,5 @@
-import GoRules from "@/components/GoRules";
-import MahjongRules from "@/components/MahjongRules";
+import GoRules from "./GoRules";
+import MahjongRules from "./MahjongRules";
 
 const Rules = () => {
   return (
