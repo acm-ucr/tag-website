@@ -18,10 +18,10 @@ const GoRules = () => {
           <div className="w-2 bg-tag-gray-100 mr-5 " />
           <p className="text-tag-gray-100 text-xl lg:text-xl">
             {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.{" "}
+            Go is a strategic board game for two players. Players alternately
+            place black or white stones on a 19x19 grid, aiming to control the
+            most territory. Stones are captured by surrounding them, and the
+            player with the most territory wins.{" "}
           </p>
         </div>
       </div>

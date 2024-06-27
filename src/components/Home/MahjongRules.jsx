@@ -1,5 +1,5 @@
 import Image from "next/image";
-import board from "../../public/MahjongPieces.webp";
+import board from "@/public/MahjongPieces.webp";
 
 const MahjongRules = () => {
   return (
@@ -10,10 +10,9 @@ const MahjongRules = () => {
         </p>
         <div className="flex mr-5 w-[120%] md:w-[120%] lg:w-[100%]">
           <p className="text-tag-gray-100 text-xl lg:text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat
+            {
+              "Mahjong is a four-player game using 144 tiles. Players draw and discard tiles to form four sets and a pair. The goal is to complete a hand and declare 'Mahjong.' Scoring is based on the complexity of the hand."
+            }
           </p>
           <div className="w-2 h-auto border-l bg-tag-gray-100 mx-5"></div>
         </div>
