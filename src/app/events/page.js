@@ -6,7 +6,9 @@ const Page = () => {
   return (
     <div>
       <Header text={"Events"} />
-      <CalendarEvents />
+      <div className="w-[80%] mx-auto mb-10">
+        <CalendarEvents />
+      </div>
     </div>
   );
 };

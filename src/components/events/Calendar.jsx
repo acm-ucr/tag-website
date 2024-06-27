@@ -6,6 +6,7 @@ import { Calendar, momentLocalizer } from "react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import CustomEvent from "./CustomEvent";
 import CustomToolbar from "./CustomToolbar";
+import CustomHeader from "./CustomeHeader";
 
 const mLocalizer = momentLocalizer(moment);
 
@@ -70,12 +71,14 @@ const CalendarTemp = () => {
           components={{
             event: CustomEvent,
             toolbar: CustomToolbar,
+            header: CustomHeader,
           }}
           onNavigate={(newDate) => {
             setDate(newDate);
           }}
         />
       </div>
+      {/* {events && <Modal event={events} setState={setEvents} />} */}
     </section>
   );
 };
