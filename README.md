@@ -11,7 +11,7 @@
 
 ## Figma
 
-[TAG Figma Design File](https://www.figma.com/file/toAgQZnYgM9hFa1uNQ4OPs/ACM-x-TAG?type=design&node-id=0%3A1&mode=design&t=jkwCOn35tw2wltHA-1)
+[TAG Figma Design File]([https://www.figma.com/file/toAgQZnYgM9hFa1uNQ4OPs/ACM-x-TAG?type=design&node-id=0%3A1&mode=design&t=jkwCOn35tw2wltHA-1](https://www.figma.com/design/CUr8M6VnOPhvLRmpaXB2Qa/Gardening-Club-Website-UX?node-id=0-1&t=YePlNzOkQeXi7mAQ-1))
 
 ## Node.js
 
