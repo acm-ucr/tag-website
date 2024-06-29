@@ -11,11 +11,11 @@
 
 ## Figma
 
-[TAG Figma Design File]([https://www.figma.com/file/toAgQZnYgM9hFa1uNQ4OPs/ACM-x-TAG?type=design&node-id=0%3A1&mode=design&t=jkwCOn35tw2wltHA-1](https://www.figma.com/design/CUr8M6VnOPhvLRmpaXB2Qa/Gardening-Club-Website-UX?node-id=0-1&t=YePlNzOkQeXi7mAQ-1))
+[Gardening Figma Design File](https://www.figma.com/design/CUr8M6VnOPhvLRmpaXB2Qa/Gardening-Club-Website-UX?node-id=0-1&t=YePlNzOkQeXi7mAQ-1)
 
 ## Node.js
 
-The TAG Website Template runs on Node.js Version 20.10.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
+The Gardening Website Template runs on Node.js Version 20.10.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
 
 ## Next.js
 
