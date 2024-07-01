@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "@/public/Logo.webp";
+import Logo from "@/public/assets/Logo.webp";
 import { BsDiscord } from "react-icons/bs"; //  for discord
 import { BsInstagram } from "react-icons/bs"; //  for insta
 import { BsEnvelope } from "react-icons/bs"; // for mailing

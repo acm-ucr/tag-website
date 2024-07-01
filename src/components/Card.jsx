@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Rong from "@/public/Rong.webp";
+import Rong from "@/public/board/Rong.webp";
 
 const Card = ({ name, position }) => {
   return (

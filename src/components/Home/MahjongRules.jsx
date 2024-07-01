@@ -1,5 +1,5 @@
 import Image from "next/image";
-import board from "@/public/MahjongPieces.webp";
+import board from "@/public/assets/MahjongPieces.webp";
 
 const MahjongRules = () => {
   return (

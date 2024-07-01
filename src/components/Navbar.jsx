@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../../public/Logo.webp";
+import Logo from "../../public/assets/Logo.webp";
 
 const Navbar = () => {
   return (
@@ -13,7 +13,7 @@ const Navbar = () => {
       <div>
         <ul className="flex px-4 py-7 space-x-5 mr-4 font-serif text-2xl">
           <li className="text-white hover:text-black">
-            <Link href={"/board"}>Teams</Link>
+            <Link href={"/board"}>Board</Link>
           </li>
           <li className="text-white hover:text-black">
             <Link href={"/events"}>Events</Link>

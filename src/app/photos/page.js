@@ -1,4 +1,4 @@
-import Gallery from "@/components/Gallery";
+import Gallery from "@/components/gallery/Gallery";
 import Header from "@/components/Header";
 
 const Page = () => {
