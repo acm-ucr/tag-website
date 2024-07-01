@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Mahjong from "@/public/Mahjong.webp";
-import Tea from "@/public/Tea.webp";
-import Go from "@/public/Go.webp";
+import Tea from "@/public/assets/Tea.webp";
+import Go from "@/public/assets/Go.webp";
 
 const Circles = () => {
   return (

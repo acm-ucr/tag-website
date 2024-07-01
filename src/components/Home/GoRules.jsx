@@ -1,5 +1,5 @@
 import Image from "next/image";
-import GoBoard from "@/public/GoBoard.webp";
+import GoBoard from "@/public/assets/GoBoard.webp";
 
 const GoRules = () => {
   return (
