@@ -15,7 +15,11 @@ const Title = () => {
         </p>
       </div>
       <div className="flex justify-center xl:mr-40 mt-16 ">
-        <Button text="JOIN NOW" />
+        <Button
+          text="JOIN NOW"
+          link="https://discord.com/invite/peSZUJWhvS"
+          target="_blank"
+        />
       </div>
     </div>
   );

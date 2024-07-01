@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         className={`${IMfell.className} h-screen bg-tag-tan-100 overflow-x-hidden`}
       >
         <Navbar />
-        {children}
+        <div className="flex-grow">{children}</div>
         <Footer />
       </body>
     </html>
