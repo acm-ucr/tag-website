@@ -1,6 +1,6 @@
 import React from "react";
 import { BOARD } from "@/data/board";
-import Card from "@/components/Card";
+import Card from "./Card";
 
 const Board = () => {
   return (
