@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="w-full flex justify-center">
+    <div className="w-full flex justify-center py-10">
       <div className="w-4/5 h-[300px] flex justify-center items-center border-[1px] border-tag-green-100 rounded-full">
         <div className="bg-[url('/Mahjong.webp')] bg-cover w-[95%] lg:h-[87%] h-[91%] rounded-[500px] flex flex-col justify-center items-center text-white">
           <div className="w-full h-full flex flex-col justify-center items-center text-white from-tag-green-200/80 to-black/80 bg-gradient-to-l -[url('/Mahjong.webp')]- bg-cover rounded-full ">

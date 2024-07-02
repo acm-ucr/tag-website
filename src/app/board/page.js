@@ -1,5 +1,5 @@
 import Header from "@/components/Header";
-import Board from "@/components/Board";
+import Board from "@/components/board/Board.jsx";
 
 const Page = () => {
   return (
