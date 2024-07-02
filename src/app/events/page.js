@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "@/components/Header";
-import CalendarEvents from "@/components/events/Calendar";
+import CalendarEvents from "@/components/events/CalendarEvents";
 
 const Page = () => {
   return (

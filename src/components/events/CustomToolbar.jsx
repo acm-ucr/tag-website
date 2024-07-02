@@ -1,36 +1,36 @@
-import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
+
 const monthNames = [
-  "January",
-  "February",
-  "March",
-  "April",
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
   "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sept",
+  "Oct",
+  "Nov",
+  "Dec",
 ];
+
 const CustomToolbar = (event) => {
   return (
-    <div className="flex justify-center items-center font-russo font-bold text-2xl">
-      <FaArrowLeft
+    <div className=" text-5xl 2xl:text-6xl font-bold flex justify-center items-center gap-3 py-12 w-full">
+      <BsArrowLeft
         onClick={() => {
-          console.log("prev");
           event.onNavigate("PREV");
         }}
-        className="text-black hover:cursor-pointer "
+        className="hover:cursor-pointer hover:opacity-50 duration-300 text-4xl"
       />
-      <div className="text-center text-4xl p-4 text-black">
-        {monthNames[event.date.getMonth()]}
-        &nbsp;
-        {event.date.getFullYear()}
-      </div>
-      <FaArrowRight
-        onClick={() => event.onNavigate("NEXT")}
-        className="text-game-black hover:cursor-pointer"
+      <p className="text-swim-blue-200">{monthNames[event.date.getMonth()]}</p>
+      <p className="text-swim-blue-200"> {event.date.getFullYear()}</p>
+      <BsArrowRight
+        onClick={() => {
+          event.onNavigate("NEXT");
+        }}
+        className="hover:cursor-pointer hover:opacity-50 duration-300 text-4xl"
       />
     </div>
   );
