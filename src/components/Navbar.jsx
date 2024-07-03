@@ -11,7 +11,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div>
-        <ul className="flex px-4 py-7 space-x-5 mr-4 font-serif text-2xl">
+        <ul className="flex px-4 py-7 space-x-5 mr-4 font-serif text-lg sm:text-2xl">
           <li className="text-white hover:text-black">
             <Link href={"/board"}>Board</Link>
           </li>
