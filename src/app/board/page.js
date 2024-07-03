@@ -3,7 +3,7 @@ import Board from "@/components/board/Board.jsx";
 
 const Page = () => {
   return (
-    <div className="justify-center flex flex-col gap-20">
+    <div className="flex flex-col items-center h-full">
       <Header text={"Meet the Board"} />
       <Board />
     </div>
