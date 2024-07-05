@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Title = () => {
   return (
-    <div className="flex flex-col items-center mr-10">
+    <div className="flex flex-col items-center sm:mr-10">
       <div className="flex flex-col items-center">
         <Image src={Logo} alt="logo" className="w-1/3 xl:w-1/4" />
         <p className="text-4xl md:text-5xl xl:text-6xl">Tea & Go</p>
