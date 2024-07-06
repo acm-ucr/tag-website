@@ -11,28 +11,28 @@ const Connect = () => {
         <Link
           href="https://www.instagram.com/ucr_tag/"
           target="_blank"
-          className="p-2 rounded-full border-[1px] border-tag-green-200"
+          className="p-2 rounded-full border-[1px] hover:scale-[1.3] ease-in duration-150 border-tag-green-200"
         >
           <FaInstagram />
         </Link>
         <Link
           href="https://discord.com/invite/peSZUJWhvS"
           target="_blank"
-          className="p-2 rounded-full border-[1px] border-tag-green-200"
+          className="p-2 rounded-full border-[1px] hover:scale-[1.3] ease-in duration-150 border-tag-green-200"
         >
           <FaDiscord />
         </Link>
         <Link
           href="mailto: ucrTeaAndGo@gmail.com"
           target="_blank"
-          className="p-2 rounded-full border-[1px] border-tag-green-200"
+          className="p-2 rounded-full border-[1px] hover:scale-[1.3] ease-in duration-150 border-tag-green-200"
         >
           <MdEmail />
         </Link>
         <Link
           href="https://highlanderlink.ucr.edu/organization/tag"
           target="_blank"
-          className="p-2 rounded-full border-[1px] border-tag-green-200"
+          className="p-2 rounded-full border-[1px] hover:scale-[1.3] ease-in duration-150 border-tag-green-200"
         >
           <FiLink />
         </Link>
