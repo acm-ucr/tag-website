@@ -16,7 +16,7 @@ const Connect = () => {
           <FaInstagram />
         </Link>
         <Link
-          href="https://discord.com/invite/peSZUJWhvS"
+          href="https://discord.gg/MS78fcp7wV"
           target="_blank"
           className="p-2 rounded-full border-[1px] border-tag-green-200"
         >
