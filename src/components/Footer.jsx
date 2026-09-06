@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="flex flex-col text-gray-100 pl-3 justify-around text-xl sm:text-2xl">
           <Link
             target="_blank"
-            href="https://discord.com/invite/peSZUJWhvS"
+            href="https://discord.gg/MS78fcp7wV"
             className="hover:scale-[1.3] ease-in duration-150"
           >
             <BsDiscord />

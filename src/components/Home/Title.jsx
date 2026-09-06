@@ -13,7 +13,7 @@ const Title = () => {
         </p>
         <Button
           text="JOIN NOW"
-          link="https://discord.com/invite/peSZUJWhvS"
+          link="https://discord.gg/MS78fcp7wV"
           target="_blank"
         />
       </div>
